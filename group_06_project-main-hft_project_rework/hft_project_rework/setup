@@ -1,0 +1,2 @@
+//Run this command: sudo iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
+//Add this to sudoers file: user_name ALL=(ALL) NOPASSWD:/usr/bin/gdb
